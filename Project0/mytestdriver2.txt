@@ -1,7 +1,0 @@
-nothing to undo on command 1
-nothing to undo on command 2
-nothing to undo on command 9
-nothing to redo on command 16
-nothing to redo on command 17
-      
-
