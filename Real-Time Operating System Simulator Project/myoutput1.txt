@@ -1,0 +1,11 @@
+running process id 0 at 10
+hello there
+running process id 1 at 15
+how are you
+skipping process id 2 at 20
+skipping process id 3 at 21
+running process id 4 at 22
+goodbye
+final clock is                 27
+number of processes run is     3
+number of processes skipped is 2

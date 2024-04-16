@@ -1,0 +1,9 @@
+running process id 1 at 15
+i am early
+running process id 0 at 22
+late but okay
+running process id 2 at 27
+last minute
+final clock is                 32
+number of processes run is     3
+number of processes skipped is 0

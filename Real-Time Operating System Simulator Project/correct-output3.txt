@@ -1,0 +1,12 @@
+running process id 0 at 0
+id zero
+running process id 1 at 10
+id one
+running process id 4 at 20
+id four
+skipping process id 2 at 25
+running process id 3 at 26
+id three
+final clock is                 36
+number of processes run is     4
+number of processes skipped is 1

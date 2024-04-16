@@ -1,0 +1,15 @@
+running process id 0 at 0
+there
+running process id 1 at 20
+is
+skipping process id 2 at 25
+skipping process id 3 at 29
+running process id 4 at 41
+the
+running process id 5 at 58
+right
+running process id 6 at 67
+tool
+final clock is                 68
+number of processes run is     5
+number of processes skipped is 2
