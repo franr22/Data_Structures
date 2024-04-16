@@ -1,0 +1,46 @@
+d b h a c f j NULL NULL NULL NULL e g i k NULL NULL NULL NULL NULL
+NULL NULL NULL
+d
+  b
+    a
+      NULL
+      NULL
+    c
+      NULL
+      NULL
+  h
+    f
+      e
+        NULL
+        NULL
+      g
+        NULL
+        NULL
+    j
+      i
+        NULL
+        NULL
+      k
+        NULL
+        NULL
+d b h NULL c f j NULL NULL NULL g NULL k NULL NULL NULL NULL
+d
+  b
+    NULL
+    c
+      NULL
+      NULL
+  h
+    f
+      NULL
+      g
+        NULL
+        NULL
+    j
+      NULL
+      k
+        NULL
+        NULL
+d b h ? c f j
+d ? c ? ?
+? ?

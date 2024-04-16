@@ -1,0 +1,17 @@
+NULL
+four and seven ago NULL score years NULL NULL NULL NULL NULL NULL
+r r10 r0 r1 r11 r00 ? ?
+four and seven ago ? score years
+four and seven NULL NULL score years NULL NULL NULL NULL
+four
+  and
+    NULL
+    NULL
+  seven
+    score
+      NULL
+      NULL
+    years
+      NULL
+      NULL
+four and seven ? ? score years

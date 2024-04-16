@@ -1,0 +1,44 @@
+i a
+i b
+i c
+i d
+i e
+i f
+i g
+i h
+i i
+i j
+i k
+l
+p
+r a
+r e
+r i
+l
+p
+d 'r r0 r1 r00 r01 r10 r11'
+d 'r r00 r01 r000 r001'
+e 'some text'
+q
+
+i 100
+i 50
+i 150
+i 25
+i 75
+i 125
+i 175
+r 100
+r 50
+r 150
+p
+
+i apple
+i banana
+i cherry
+l
+p
+r wnn
+l
+p
+q
