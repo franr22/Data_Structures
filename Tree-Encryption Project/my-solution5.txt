@@ -1,0 +1,24 @@
+four
+  and
+    ago
+      NULL
+      NULL
+    NULL
+  score
+    NULL
+    seven
+      NULL
+      years
+        NULL
+        NULL
+four
+  and
+    NULL
+    NULL
+  score
+    NULL
+    seven
+      NULL
+      years
+        NULL
+        NULL

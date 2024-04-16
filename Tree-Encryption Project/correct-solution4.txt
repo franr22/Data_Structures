@@ -1,0 +1,14 @@
+a
+  NULL
+  b
+    NULL
+    c
+      NULL
+      NULL
+a
+  NULL
+  b
+    NULL
+    c
+      NULL
+      NULL

@@ -1,0 +1,72 @@
+template <class Base>
+void BST<Base>::remove(const Base &item){
+    BSTNode<Base> *toRemove = root;
+    BSTNode<Base> *parent = nullptr;
+    bool nodeFound = false;
+
+    while(!nodeFound && (toRemove->data < item || item < toRemove->data)){
+        if(toRemove->data < item){
+        parent = toRemove;
+        toRemove = toRemove->right;
+        }
+        else if(item < toRemove->data){
+        parent = toRemove;
+        toRemove = toRemove->left;
+        }
+        else{
+        nodeFound = true;
+        break;
+        }
+    }
+
+    if(!nodeFound){
+    return ;
+    }
+
+    if(toRemove->right == nullptr || toRemove->left == nullptr){
+        BSTNode<Base> *child = nullptr;
+        if (toRemove->left != nullptr) {
+        child = toRemove->left;
+        toRemove->left = nullptr;
+        } else {
+        child = toRemove->right;
+        toRemove->right = nullptr
+    }
+
+    if(parent->left == toRemove){
+        parent->left = child;
+    } else if(parent->right == toRemove){
+        parent->right = child;
+    }
+    else{
+        root = child;
+    }
+
+    } else{
+    BSTNode<Base> *leftMost = toRemove->right;
+    BSTNode<Base>  *leftMostParent = toRemove;
+
+    if (leftMost->left != nullptr) {
+        while (leftMost->left != nullptr) {
+            leftMostParent = leftMost;
+            leftMost = leftMost->left;
+        }
+        leftMostParent->left = leftMost->right
+        leftMost->right = toRemove->right;
+    }
+    leftMost->left = toRemove->left;
+
+    if (parent->left == toRemove) {
+        parent->left = leftMost;
+    } else if(parent->right == toRemove){
+        parent->right = leftMost;
+    }
+    else {
+        root = leftMost;
+    }
+    toRemove->left = toRemove->right = nullptr;
+   }
+    delete toRemove;
+}
+
+
