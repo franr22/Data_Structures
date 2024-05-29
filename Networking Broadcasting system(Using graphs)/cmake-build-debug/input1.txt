@@ -1,0 +1,13 @@
+12
+a_server b 5
+b c_server 15
+c_server d 10
+d a_server 20
+a_server c_server 10
+b d 5
+d e 2
+e f 2
+f g 2
+g h_server 2
+h_server a_server 5
+c_server f 5
